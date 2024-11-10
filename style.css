@@ -1,0 +1,116 @@
+body{
+    font-family: "Handlee";
+    background-image: url("./assets/img/image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+   
+}
+
+.title_note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+label{
+    font-size: 35px;
+    padding-top: 25px;
+}
+
+button{
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+h2{
+    padding-top: 50px;
+    font-size:30px;
+}
+
+.content{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap:15px;
+    padding:25px 25px 0 25px;
+    
+}
+
+.note_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 150px; /* Adjust this as needed */
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    padding: 15px;
+
+
+}
+
+
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.push_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+.title_note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.title_note h3{
+    padding: 15px;
+    font-size: 25px;
+}
+
+.title_note span{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.buttons_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+}
